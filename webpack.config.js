@@ -5,10 +5,11 @@ module.exports = {
   mode: 'development',
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(__dirname, 'docs')
   },
   devServer: {
-    contentBase: './dist',
+    // contentBase: './dist',
+    contentBase: './docs',
     hot: true
   },
   devtool: 'inline-source-map',

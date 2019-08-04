@@ -1,7 +1,42 @@
-.foo {
-  background-color: red;
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
-.bar {
-  background-color: yellow;
+.App {
+  .container {
+    position: relative;
+    height: 400px;
+    background-color: #15618f;
+    align-items: center;
+    text-align: center;
+    .title {
+      text-align: center;
+      margin: 0;
+    }
+    .btn {
+      margin: 10em auto;
+      width: 180px;
+      height: 40px;
+      border: 1px solid rgba(255, 255, 255, .2);
+      background-color: rgba(21, 125, 115, .4);
+      color: rgba(0, 0, 0, 1);
+      border-radius: 3px;
+      outline: none;
+      cursor: pointer;
+      transition: .3s;
+      &:hover {
+        background-color: rgba(21, 125, 115, .7);
+        color: black;
+      }
+    }
+  }
+  .graph {
+    padding: 1em 1em 0 1em;
+    h2 {
+      color: rgba(0, 188, 0, .4);
+    }
+  }
 }
