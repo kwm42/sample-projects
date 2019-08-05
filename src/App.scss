@@ -5,38 +5,17 @@ body {
   margin: 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.App {
-  .container {
+.app {
+  .surface {
     position: relative;
-    height: 400px;
-    background-color: #15618f;
-    align-items: center;
-    text-align: center;
-    .title {
-      text-align: center;
-      margin: 0;
-    }
+    height: 500px;
+    background-color: #0097e6;
+    box-shadow: 0 2px 5px 1px rgba(39, 60, 117, .3);
     .btn {
-      margin: 10em auto;
-      width: 180px;
-      height: 40px;
-      border: 1px solid rgba(255, 255, 255, .2);
-      background-color: rgba(21, 125, 115, .4);
-      color: rgba(0, 0, 0, 1);
-      border-radius: 3px;
-      outline: none;
-      cursor: pointer;
-      transition: .3s;
-      &:hover {
-        background-color: rgba(21, 125, 115, .7);
-        color: black;
-      }
-    }
-  }
-  .graph {
-    padding: 1em 1em 0 1em;
-    h2 {
-      color: rgba(0, 188, 0, .4);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
   }
 }

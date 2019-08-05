@@ -1,8 +1,32 @@
 {
-  "cssDemos": [
-    {
-      "name": "grid-loading",
-      "path": "css-demos/grid-loading"
+  "css-demos": {
+    "blizzard-loading": {
+      "path": "./projects/css-demos/blizzard-loading/",
+      "name": "blizzard-loading"
+    },
+    "bounce-loading": {
+      "path": "./projects/css-demos/bounce-loading/",
+      "name": "bounce-loading"
+    },
+    "fall-down-effect": {
+      "path": "./projects/css-demos/fall-down-effect/",
+      "name": "fall-down-effect"
+    },
+    "grid-loading": {
+      "path": "./projects/css-demos/grid-loading/",
+      "name": "grid-loading"
+    },
+    "responsive-menu": {
+      "path": "./projects/css-demos/responsive-menu/",
+      "name": "responsive-menu"
+    },
+    "ripple-loading": {
+      "path": "./projects/css-demos/ripple-loading/",
+      "name": "ripple-loading"
+    },
+    "three-color-circle-loading": {
+      "path": "./projects/css-demos/three-color-circle-loading/",
+      "name": "three-color-circle-loading"
     }
-  ]
+  }
 }
