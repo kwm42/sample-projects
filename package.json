@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/kwm42/sample-projects#readme",
   "dependencies": {
+    "@material-ui/core": "^4.3.1",
+    "@material-ui/icons": "^4.2.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
