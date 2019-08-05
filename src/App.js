@@ -1,15 +1,15 @@
 import React from 'react';
-import Test from './Test';
 import style from './App.scss';
+import projects from './projects.json';
 
 class App extends React.Component {
   render() {
     return (
       <div className={style.App}>
-        <div className={style.container}>
+        {/* <div className={style.container}>
           <h1 className={style.title}>welcome to my sample code!</h1>
           <button className={style.btn}>Let's go</button>
-        </div>
+        </div> */}
         <div className={style.graph}>
           <h2>Welcome to GitHub Pages</h2>
           <p>You can use the editor on GitHub to maintain and preview the content for your website in Markdown files.</p>
@@ -17,6 +17,11 @@ class App extends React.Component {
         </div>
       </div>
     )
+  }
+
+  constructor() {
+    super();
+    console.log(projects.cssDemos);
   }
 }
 

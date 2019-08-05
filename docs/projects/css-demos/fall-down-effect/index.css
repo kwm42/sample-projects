@@ -1,0 +1,47 @@
+body{
+	background-color: #dfe4ea;
+}
+
+.panel{
+	width: 600px;
+	height: 350px;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 1em;
+	animation: falldown 1.4s, 
+			   break .5s 1.4s forwards;
+	transform-origin: -40% -40%;
+	background: url('./panel-bg.jpg');
+	background-size: cover;
+	box-shadow: 0 0 15px grey;
+}
+
+.panel h1{
+	color: white;
+}
+
+@keyframes falldown{
+	0%{
+		top: -40%;
+	}
+	75%{
+		top: 50%;
+	}
+	100%{
+		top: 40%;
+	}
+}
+
+@keyframes break{
+	100%{
+		transform: rotate(15deg) translate(-50%, -50%);
+	}
+}
+
+@keyframes breakReverse{
+	100%{
+		transform: rotate(-15deg) translate(-50%, -50%);
+	}
+}
