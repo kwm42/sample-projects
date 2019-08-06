@@ -1,0 +1,11 @@
+.list {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow: auto;
+}
+.item {
+  margin: 1em;
+  min-width: 25%;
+}

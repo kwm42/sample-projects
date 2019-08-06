@@ -1,7 +1,8 @@
 import React from 'react';
 import style from './App.scss';
 import { Button } from '@material-ui/core';
-import SampleAppBar from './components/AppBar';
+import SampleAppBar from './components/SampleAppBar';
+import Collections from './components/Collections';
 
 class App extends React.Component {
   render() {
@@ -13,6 +14,7 @@ class App extends React.Component {
             fofo
           </Button>
         </div>
+        <Collections />
       </div>
     )
   }
