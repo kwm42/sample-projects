@@ -8,7 +8,7 @@ class Collections extends Component {
   }
   render() {
     const collections = Object.keys(projects).map((key, index) => {
-      return <ProjectList projects={projects[key]} key={index} />
+      return <ProjectList kind={key} projects={projects[key]} key={index} />
     })
     return (
       <div>

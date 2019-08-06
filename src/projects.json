@@ -1,4 +1,30 @@
 {
+  "canvas": [
+    {
+      "name": "bubble"
+    },
+    {
+      "name": "circular"
+    },
+    {
+      "name": "clock"
+    },
+    {
+      "name": "game"
+    },
+    {
+      "name": "imageDataTest"
+    },
+    {
+      "name": "snow"
+    },
+    {
+      "name": "tunnel"
+    },
+    {
+      "name": "tutorial"
+    }
+  ],
   "css-demos": [
     {
       "name": "blizzard-loading"
