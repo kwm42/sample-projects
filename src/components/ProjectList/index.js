@@ -12,7 +12,7 @@ class ProjectList extends Component {
     const list = projects.map((item, index) => {
       return (
         <div className={style.item} key={index} >
-          <ProjectItem item={item} />
+          <ProjectItem item={item} kind={this.props.kind} />
         </div>
       )
     })
