@@ -34,7 +34,7 @@ class ProjectItem extends Component {
     )
   }
   view() {
-    window.location.pathname = `/projects/css-demos/${this.props.item.name}/index.html`
+    window.location.pathname += `projects/css-demos/${this.props.item.name}/index.html`
   }
 }
 
