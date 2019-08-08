@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { AppBar, Toolbar, Typography, Button, IconButton, Drawer, List, ListItem, Avatar } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 import style from './index.scss';
-import avatar from '../../../static/avatar.png';
+import avatar from '../../../static/img/avatar.png';
 
 class SampleAppBar extends Component {
   constructor() {

@@ -10,9 +10,6 @@
       "name": "clock"
     },
     {
-      "name": "game"
-    },
-    {
       "name": "imageDataTest"
     },
     {
@@ -20,9 +17,6 @@
     },
     {
       "name": "tunnel"
-    },
-    {
-      "name": "tutorial"
     }
   ],
   "css-demos": [
