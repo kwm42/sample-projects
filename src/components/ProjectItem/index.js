@@ -7,11 +7,11 @@ class ProjectItem extends Component {
     super();
   }
   render() {
-    const { item } = this.props;
+    const { item, kind } = this.props;
     return (
       <Card>
         <CardActionArea>
-          <img src={`/projects/css-demos/${item.name}/preview.gif`} alt="" className={style.preview} />
+          <img src={`/projects/${kind}/${item.name}/preview.gif`} alt="" className={style.preview} />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
               {item.name.toUpperCase()}
