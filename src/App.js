@@ -9,19 +9,14 @@ class App extends React.Component {
     return (
       <div className={style.app}>
         <div className={style.front}>
-          {/* <div className={style.front}>
-          <SampleAppBar />
+          <div className={style.appbar}>
+            <SampleAppBar className={style.bar} />
+          </div>
           <div className={style.surface}>
-            <Button variant="contained" className={style.btn}>
-              fofo
-          </Button>
+            {/* <Button className={style.btn} >foo</Button> */}
           </div>
         </div>
-        <Collections /> */}
-          <div className={style.a}>a</div>
-          <div className={style.b}>b</div>
-        </div>
-        ss
+        <Collections />
       </div>
     )
   }

@@ -4,8 +4,8 @@
   flex-direction: row;
   flex-wrap: nowrap;
   overflow: auto;
-}
-.item {
-  margin: 1em;
-  min-width: 25%;
+  .item {
+    min-width: 280px;
+    padding: 8px;
+  }
 }
