@@ -12,7 +12,7 @@ class ProjectItem extends Component {
       <Card className={style.card}>
         <CardActionArea>
           <div className={style.preview} >
-            <img src={`/projects/${kind}/${item.name}/preview.gif`} alt="" />
+            <img src={`projects/${kind}/${item.name}/preview.gif`} alt="" />
           </div>
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
