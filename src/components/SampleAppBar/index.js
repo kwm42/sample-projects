@@ -1,8 +1,19 @@
 import React, { Component } from 'react';
-import { AppBar, Toolbar, Typography, Button, IconButton, Drawer, List, ListItem, Avatar } from '@material-ui/core';
+import { AppBar, Toolbar, Typography, Button, IconButton, Drawer, List, ListItem, Avatar, Divider } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 import style from './index.scss';
 import avatar from '../../../static/img/avatar.png';
+
+const drawList = [
+  {
+    label: 'github',
+    url: 'http://github.com/kwm42'
+  },
+  {
+    label: 'blog',
+    url: 'http://kwm42.github.io'
+  }
+]
 
 class SampleAppBar extends Component {
   constructor() {
@@ -15,9 +26,12 @@ class SampleAppBar extends Component {
   render() {
     const drawer = 
     <List className={style.sideList}>
-      {['111', '222', '333'].map((item, index) => {
+      {drawList.map((item, index) => {
         return (
-          <ListItem button key={index}>{item}</ListItem>
+          <div key={index}>
+            <ListItem button onClick={() => window.location.href = `${item.url}`}>{item.label}</ListItem>
+            <Divider />
+          </div>
         )
       })}
     </List>
@@ -31,7 +45,7 @@ class SampleAppBar extends Component {
               <MenuIcon />
             </IconButton>
             <Typography variant="h6" className={style.title}>
-              News
+              Kwm42
             </Typography>
             <Avatar alt="kwm42" src={avatar}/>
           </Toolbar>
