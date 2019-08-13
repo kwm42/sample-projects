@@ -21,10 +21,10 @@ class ProjectItem extends Component {
           </CardContent>
         </CardActionArea>
         <CardActions>
-          <Button size="small" color="primary" onClick={() => this.view()}>
+          <Button size="small" color="primary" onClick={() => window.location.href = this.props.item.url}>
             view
           </Button>
-          <Button size="small" color="primary">
+          <Button size="small" color="primary" onClick={() => window.location.href = this.props.item.source}>
             source
           </Button>
         </CardActions>
@@ -32,7 +32,8 @@ class ProjectItem extends Component {
     )
   }
   view() {
-    window.location.pathname += `projects/${this.props.kind}/${this.props.item.name}/index.html`
+    // window.location.pathname += `projects/${this.props.kind}/${this.props.item.name}/index.html`
+    window.location.href = this.props.url
   }
 }
 

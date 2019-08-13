@@ -1,45 +1,66 @@
 {
   "canvas": [
     {
-      "name": "bubble"
+      "name": "bubble",
+      "url": "https://kwm42.github.io/learning/canvas/bubble/index.html",
+      "source": "https://github.com/kwm42/learning/tree/master/canvas/bubble"
     },
     {
-      "name": "circular"
+      "name": "circular",
+      "url": "https://kwm42.github.io/learning/canvas/circular/index.html",
+      "source": "https://github.com/kwm42/learning/tree/master/canvas/circular"
     },
     {
-      "name": "clock"
+      "name": "canvas-particles",
+      "url": "https://kwm42.github.io/canvas-particles-effect/",
+      "source": "https://github.com/kwm42/learning/tree/master/canvas/canvas-particles"
     },
     {
-      "name": "imageDataTest"
+      "name": "snow",
+      "url": "https://kwm42.github.io/learning/canvas/snow/index.html",
+      "source": "https://github.com/kwm42/learning/tree/master/canvas/snow"
     },
     {
-      "name": "snow"
-    },
-    {
-      "name": "tunnel"
+      "name": "tunnel",
+      "url": "https://kwm42.github.io/learning/canvas/tunnel/index.html",
+      "source": "https://github.com/kwm42/learning/tree/master/canvas/tunnel"
     }
   ],
   "css-demos": [
     {
-      "name": "blizzard-loading"
+      "name": "blizzard-loading",
+      "url": "https://kwm42.github.io/learning/css-demos/blizzard-loading/index.html",
+      "source": "https://github.com/kwm42/learning/tree/master/css-demos/blizzard-loading"
     },
     {
-      "name": "bounce-loading"
+      "name": "bounce-loading",
+      "url": "https://kwm42.github.io/learning/css-demos/bounce-loading/index.html",
+      "source": "https://github.com/kwm42/learning/tree/master/css-demos/bounce-loading"
     },
     {
-      "name": "fall-down-effect"
+      "name": "fall-down-effect",
+      "url": "https://kwm42.github.io/learning/css-demos/fall-down-effect/index.html",
+      "source": "https://github.com/kwm42/learning/tree/master/css-demos/fall-down-effect"
     },
     {
-      "name": "grid-loading"
+      "name": "grid-loading",
+      "url": "https://kwm42.github.io/learning/css-demos/grid-loading/index.html",
+      "source": "https://github.com/kwm42/learning/tree/master/css-demos/grid-loading"
     },
     {
-      "name": "responsive-menu"
+      "name": "responsive-menu",
+      "url": "https://kwm42.github.io/learning/css-demos/responsive-menu/index.html",
+      "source": "https://github.com/kwm42/learning/tree/master/css-demos/responsive-menu"
     },
     {
-      "name": "ripple-loading"
+      "name": "ripple-loading",
+      "url": "https://kwm42.github.io/learning/css-demos/ripple-loading/index.html",
+      "source": "https://github.com/kwm42/learning/tree/master/css-demos/ripple-loading"
     },
     {
-      "name": "three-color-circle-loading"
+      "name": "three-color-circle-loading",
+      "url": "https://kwm42.github.io/learning/css-demos/three-color-circle-loading/index.html",
+      "source": "https://github.com/kwm42/learning/tree/master/css-demos/three-color-circle-loading"
     }
   ]
 }
